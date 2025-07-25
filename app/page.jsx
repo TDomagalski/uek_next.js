@@ -3,10 +3,7 @@ import Image from 'next/image';
 import Button from '../components/ui/Buttons';
 
 export const metadata = {
-  title: {
-    default: 'TwojaStrona.pl',
-    template: '%s | TwojaStrona.pl',
-  },
+  title: 'TwojaStrona.pl',
   description:
     'Content marketing i profesjonalne projektowanie stron WWW. Zwiększ zasięg swojej marki z naszymi usługami.',
   metadataBase: new URL('https://twojastrona.pl'),

@@ -1,8 +1,5 @@
 export const metadata = {
-  title: {
-    default: 'TwojaStrona.pl - Usługi',
-    template: '%s | TwojaStrona.pl',
-  },
+  title: 'TwojaStrona.pl - Usługi',
   description:
     'Content marketing i profesjonalne projektowanie stron WWW. Zwiększ zasięg swojej marki z naszymi usługami.',
   metadataBase: new URL('https://twojastrona.pl/uslugi'),
