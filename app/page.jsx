@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import ContactUs from '../components/ContactUs';
 import Button from '../components/ui/Buttons';
 
 export const metadata = {
@@ -240,7 +239,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ContactUs />
     </>
   );
 }
