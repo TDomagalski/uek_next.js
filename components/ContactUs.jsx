@@ -6,7 +6,7 @@ export default function ContactUs() {
       className="relative min-h-[250px] flex items-center justify-center overflow-hidden bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('/section_bg01.jpg')" }}
     >
-      <div className="relative z-10 w-full max-w-7xl mx-auto p-8">
+      <div className="relative z-10 container p-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
           <div className="space-y-8 col-span-1 md:col-span-2 text-left">
             <h3 className="text-2xl font-semibold">

@@ -23,7 +23,7 @@ export default function Home() {
         }}
       >
         {/* Main Content Container */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20">
             {/* Left Side - Content */}
             <div className="space-y-8">
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </section>
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20">
             {/* Left Side - Image */}
             <div className="relative w-full h-full min-h-[300px] sm:min-h-[400px] lg:min-h-full">
@@ -104,7 +104,7 @@ export default function Home() {
       </section>
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20">
             <div className="space-y-8 order-2 lg:order-1">
               <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
@@ -143,7 +143,7 @@ export default function Home() {
       </section>
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-10 container px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
             <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
               <span>We take a steps to build a successful business</span>
