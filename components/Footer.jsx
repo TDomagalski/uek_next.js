@@ -1,14 +1,13 @@
 // components/Footer.js
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer({
-  companyName = 'Expo',
+  companyName = 'WebDev',
   companyDescription = "Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisl ufsit aliquip.",
   address = '76/A, Green Lane, Dhanmondi, NYC',
   phone = '+10 (78) 738-9083',
   logoSrc = '/logo.png', // Ścieżka do logo
-  logoAlt = 'Logo firmy Expo',
+  logoAlt = 'Logo firmy WebDev',
 }) {
   // Dane nawigacji - łatwo edytowalne
   const navigationLinks = [
@@ -79,8 +78,8 @@ export default function Footer({
   ];
 
   return (
-    <footer className="bg-gray-50 border-t border-gray-200">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+    <footer className="relative flex items-center justify-center overflow-hidden bg-gray-50 border-t border-gray-200">
+      <div className="container px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
         {/* Main Footer Content - Responsive Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 md:h-auto">
           {/* Company Info Column - Mobile: full width, Tablet+: equal height */}
@@ -126,7 +125,7 @@ export default function Footer({
             {/* Navigation Column */}
             <div className="space-y-4 sm:space-y-6 px-2 sm:px-0 md:h-full md:flex md:flex-col">
               <h4 className="text-base sm:text-lg font-semibold text-gray-900  md:flex-shrink-0">
-                Navigation
+                Nawigacja
               </h4>
               <nav className="space-y-2 sm:space-y-3 md:flex-1 md:flex md:flex-col md:justify-start">
                 {navigationLinks.map((link) => (
@@ -144,7 +143,7 @@ export default function Footer({
             {/* Services Column - Responsive height matching */}
             <div className="space-y-4 sm:space-y-6 px-2 sm:px-0 md:h-full md:flex md:flex-col">
               <h4 className="text-base sm:text-lg font-semibold text-gray-900  md:flex-shrink-0">
-                Services
+                Usługi
               </h4>
               <nav className="space-y-2 sm:space-y-3 md:flex-1 md:flex md:flex-col md:justify-start">
                 {serviceLinks.map((service) => (
