@@ -132,7 +132,7 @@ export default function Footer({
                   <Link
                     key={link.name}
                     href={link.href}
-                    className="block text-sm sm:text-base text-gray-600 hover:text-orange-600 transition-colors duration-200 hover:translate-x-1 transform "
+                    className="w-max text-sm sm:text-base text-gray-600 hover:text-orange-600 transition-colors duration-200 hover:translate-x-1 transform "
                   >
                     {link.name}
                   </Link>
