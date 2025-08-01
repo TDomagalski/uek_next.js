@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import Button from '../components/ui/Buttons';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'TwojaStrona.pl',
@@ -24,22 +25,22 @@ export default function Home() {
             {/* Left Side - Content */}
             <div className="space-y-8">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
-                <span className="text-gray-800">Build audience and</span>
+                <span className="text-gray-800">Tworzymy strony,</span>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
-                  grow your brand
+                  które pracują na wynik
                 </span>
               </h1>
 
               <div className="space-y-4">
                 <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
-                  <strong>Content marketing</strong> is nothing but offering
-                  users value.
+                  <strong>Design + SEO</strong> = przewaga nad konkurencją.
                 </p>
                 <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
-                  It is not just about traffic{' '}
+                  Strona internetowa powinna nie tylko wyglądać dobrze, ale
+                  przede wszystkim{' '}
                   <span className="text-purple-600 font-semibold">
-                    million customers
+                    realnie wspierać sprzedaż
                   </span>
                   .
                 </p>
@@ -47,14 +48,16 @@ export default function Home() {
 
               {/* Button */}
               <div className="pt-6">
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Explore Us</span>
-                </Button>
+                <Link href="/kontakt">
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Kontakt</span>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,27 +75,45 @@ export default function Home() {
                 className="object-cover rounded-lg"
               />
             </div>
+            {/* Right Side - Image */}
             <div className="space-y-8">
               <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
-                <span>We take a steps to build a successful business</span>
+                <span>
+                  Projektujemy nowoczesne strony w React, Next.js i Astro
+                </span>
               </h2>
               <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquam nesciunt, fugiat assumenda quidem modi, debitis sunt
-                rerum minima corporis maxime, ratione sit dolore error labore!
-                Facilis deleniti pariatur atque illo?
+                Tworzymy{' '}
+                <span className="font-semibold text-purple-600">szybkie</span>,{' '}
+                <span className="font-semibold text-purple-600">
+                  responsywne
+                </span>{' '}
+                i{' '}
+                <span className="font-semibold text-purple-600">
+                  skalowalne strony internetowe
+                </span>{' '}
+                w technologiach nowej generacji. Stawiamy na{' '}
+                <span className="font-semibold text-purple-600">wydajność</span>
+                , <span className="font-semibold text-purple-600">UX</span> i
+                nowoczesny{' '}
+                <span className="font-semibold text-purple-600">
+                  web design
+                </span>{' '}
+                – od landing page'y po zaawansowane aplikacje.
               </p>
 
               {/* Button */}
               <div className="pt-6">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Explore Us</span>
-                </Button>
+                <Link href="/kontakt">
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Kontakt</span>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -102,27 +123,55 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20">
+            {/* Left Side - Image */}
             <div className="space-y-8 order-2 lg:order-1">
               <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
-                <span>We take a steps to build a successful business</span>
+                <span>Skuteczne SEO on-site i off-site dla Twojej marki</span>
               </h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquam nesciunt, fugiat assumenda quidem modi, debitis sunt
-                rerum minima corporis maxime, ratione sit dolore error labore!
-                Facilis deleniti pariatur atque illo?
+              <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl">
+                Optymalizujemy strony pod kątem{' '}
+                <span className="font-semibold text-purple-600">
+                  SEO technicznego
+                </span>
+                ,{' '}
+                <span className="font-semibold text-purple-600">
+                  treściowego
+                </span>{' '}
+                i{' '}
+                <span className="font-semibold text-purple-600">
+                  strategicznego
+                </span>
+                . Zajmujemy się{' '}
+                <span className="font-semibold text-purple-600">
+                  audytami SEO
+                </span>
+                ,{' '}
+                <span className="font-semibold text-purple-600">
+                  link buildingiem
+                </span>
+                ,{' '}
+                <span className="font-semibold text-purple-600">
+                  content marketingiem
+                </span>{' '}
+                oraz{' '}
+                <span className="font-semibold text-purple-600">
+                  lokalnym pozycjonowaniem
+                </span>
+                .
               </p>
 
               {/* Button */}
               <div className="pt-6">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Explore Us</span>
-                </Button>
+                <Link href="/kontakt">
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Kontakt</span>
+                  </Button>
+                </Link>
               </div>
             </div>
             {/* Right Side - Image */}
@@ -142,13 +191,23 @@ export default function Home() {
         <div className="relative z-10 container px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
             <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
-              <span>We take a steps to build a successful business</span>
+              <span>Budujemy silną obecność Twojej marki w internecie</span>
             </h2>
             <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-full">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-              nesciunt, fugiat assumenda quidem modi, debitis sunt rerum minima
-              corporis maxime, ratione sit dolore error labore! Facilis deleniti
-              pariatur atque illo?
+              Oferujemy kompleksowe wsparcie w zakresie{' '}
+              <span className="font-semibold text-purple-600">
+                projektowania stron internetowych
+              </span>
+              ,
+              <span className="font-semibold text-purple-600">
+                pozycjonowania SEO
+              </span>{' '}
+              oraz{' '}
+              <span className="font-semibold text-purple-600">
+                content marketingu
+              </span>
+              . Łączymy strategię, design i widoczność, aby pomóc Twojej firmie
+              przyciągać klientów i zwiększać sprzedaż online.
             </p>
           </div>
 
@@ -171,14 +230,16 @@ export default function Home() {
               </div>
               {/* Button */}
               <div className="pt-8 mt-auto">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Poznaj szczegóły</span>
-                </Button>
+                <Link href="/uslugi">
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Usługi</span>
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="space-y-4 border border-gray-300 rounded-2xl py-10 px-10 h-full flex flex-col">
@@ -197,14 +258,16 @@ export default function Home() {
               </div>
               {/* Button */}
               <div className="pt-8 mt-auto">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Explore Us</span>
-                </Button>
+                <Link href="/uslugi">
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Usługi</span>
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="space-y-4 border border-gray-300 rounded-2xl py-10 px-10 h-full flex flex-col">
@@ -223,14 +286,16 @@ export default function Home() {
               </div>
               {/* Button */}
               <div className="pt-8 mt-auto">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="group relative overflow-hidden"
-                  aria-label="Poznaj nasze usługi web design i SEO"
-                >
-                  <span className="relative z-10">Explore Us</span>
-                </Button>
+                <Link href="/uslugi">
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className="group relative overflow-hidden"
+                    aria-label="Poznaj nasze usługi web design i SEO"
+                  >
+                    <span className="relative z-10">Usługi</span>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,12 +2,12 @@
 import Link from 'next/link';
 
 export default function Footer({
-  companyName = 'WebDev',
-  companyDescription = "Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisl ufsit aliquip.",
-  address = '76/A, Green Lane, Dhanmondi, NYC',
-  phone = '+10 (78) 738-9083',
+  companyName = 'TomDom',
+  companyDescription = 'Tworzę nowoczesne strony internetowe, zajmuję się skutecznym SEO i content marketingiem. Pomagam firmom budować widoczność i przyciągać klientów online.',
+  address = 'Tomasz Domagalski, 208610',
+  phone = '(+48) 664-939-711',
   logoSrc = '/logo.png', // Ścieżka do logo
-  logoAlt = 'Logo firmy WebDev',
+  logoAlt = 'Logo firmy TomDom',
 }) {
   // Dane nawigacji - łatwo edytowalne
   const navigationLinks = [
@@ -18,9 +18,9 @@ export default function Footer({
 
   // Dane usług - łatwo edytowalne
   const serviceLinks = [
-    { name: 'Blackforest', href: '/uslugi/blackforest' },
-    { name: 'Bodhubon', href: '/uslugi/bodhubon' },
-    { name: 'Rongdhonu', href: '/uslugi/rongdhonu' },
+    { name: 'Projektowanie stron www', href: '/uslugi' },
+    { name: 'Pozycjonowanie SEO', href: '/uslugi' },
+    { name: 'Content Marketing', href: '/uslugi' },
   ];
 
   // Dane social media - z ikonami SVG
@@ -127,7 +127,7 @@ export default function Footer({
               <h4 className="text-base sm:text-lg font-semibold text-gray-900  md:flex-shrink-0">
                 Nawigacja
               </h4>
-              <nav className="space-y-2 sm:space-y-3 md:flex-1 md:flex md:flex-col md:justify-start">
+              <nav className="space-y-2 sm:space-y-3 flex flex-col">
                 {navigationLinks.map((link) => (
                   <Link
                     key={link.name}
@@ -145,7 +145,7 @@ export default function Footer({
               <h4 className="text-base sm:text-lg font-semibold text-gray-900  md:flex-shrink-0">
                 Usługi
               </h4>
-              <nav className="space-y-2 sm:space-y-3 md:flex-1 md:flex md:flex-col md:justify-start">
+              <nav className="space-y-2 sm:space-y-3 flex flex-col">
                 {serviceLinks.map((service) => (
                   <Link
                     key={service.name}
@@ -162,7 +162,7 @@ export default function Footer({
           {/* Contact Column - Responsive height matching */}
           <div className="col-span-1 space-y-4 sm:space-y-6 px-2 sm:px-0 md:h-full md:flex md:flex-col text-center sm:text-left">
             <h4 className="text-base sm:text-lg font-semibold text-gray-900 md:text-center md:flex-shrink-0">
-              Contact Us
+              Kontakt
             </h4>
 
             <div className="space-y-3 sm:space-y-4 md:flex-1 md:flex md:flex-col md:justify-start">
@@ -233,16 +233,16 @@ export default function Footer({
             {/* Dodatkowe linki prawne */}
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 text-xs sm:text-sm">
               <Link
-                href="/privacy-policy"
+                href="#"
                 className="text-gray-500 hover:text-gray-900 transition-colors"
               >
-                Polityka Prywatności
+                Informatyka stosowana - Inżynieria oprogramowania
               </Link>
               <Link
-                href="/terms"
+                href="#"
                 className="text-gray-500 hover:text-gray-900 transition-colors"
               >
-                Regulamin
+                Uniwersytet Ekonomiczny w Krakowie
               </Link>
             </div>
           </div>
