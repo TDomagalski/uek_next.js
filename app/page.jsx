@@ -16,7 +16,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-no-repeat bg-center"
         style={{
-          backgroundImage: "url('/homepage/top-bg.jpg')",
+          backgroundImage: "url('/homepage/top-img.png')",
         }}
       >
         {/* Main Content Container */}
@@ -69,7 +69,7 @@ export default function Home() {
             {/* Left Side - Image */}
             <div className="relative w-full h-full min-h-[300px] sm:min-h-[400px] lg:min-h-full">
               <Image
-                src="/homepage/top-bg.jpg"
+                src="/homepage/img-1.png"
                 alt="Hero Image"
                 fill
                 className="object-cover rounded-lg"
@@ -177,7 +177,7 @@ export default function Home() {
             {/* Right Side - Image */}
             <div className="relative w-full h-full min-h-[300px] sm:min-h-[400px] lg:min-h-full order-1 lg:order-2">
               <Image
-                src="/homepage/top-bg.jpg"
+                src="/homepage/img-2.png"
                 alt="Hero Image"
                 fill
                 className="object-cover rounded-lg"

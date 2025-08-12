@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import Button from '@/components/ui/Buttons';
 
 export const metadata = {
@@ -10,10 +12,10 @@ export const metadata = {
 export default function UslugiPage() {
   return (
     <>
-      <section className="min-h-[300px] flex items-center justify-center overflow-hidden">
+      <section className="min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center justify-start">
-            <div className="space-y-8">
+          <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center justify-start">
+            <div className="space-y-8 p-16">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
                 <span>Usługi</span>
               </h1>
@@ -22,10 +24,18 @@ export default function UslugiPage() {
                 obecności w sieci.
               </p>
             </div>
+            <div className="relative w-full h-full min-h-[400px] sm:min-h-[400px] lg:min-h-full">
+              <Image
+                src="/homepage/img-1.png"
+                alt="Hero Image"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <section className="relative flex items-center justify-center overflow-hidden">
+      <section className="relative flex items-center justify-center overflow-hidden mt-8">
         <div className="container px-4 xm:px-6 lg:px-8">
           <div className="space-y-8 text-center">
             <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight">
@@ -38,8 +48,8 @@ export default function UslugiPage() {
               marki.
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 justify-center py-20 items-stretch">
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 justify-center items-stretch  py-20">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -72,7 +82,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -105,7 +115,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -138,7 +148,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -174,7 +184,7 @@ export default function UslugiPage() {
           </div>
         </div>
       </section>
-      <section className="relative flex items-center justify-center overflow-hidden">
+      <section className="relative flex items-center justify-center overflow-hidden mt-8">
         <div className="container px-4 xm:px-6 lg:px-8">
           <div className="space-y-8 text-center">
             <h2 className="text-4xl sm:text-3xl lg:text-5xl font-bold leading-tight md:max-w-2/3 mx-auto">
@@ -195,7 +205,7 @@ export default function UslugiPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-24 justify-center py-20 items-stretch">
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex justify-center items-center">
                   Pakiet Startowy
@@ -229,7 +239,7 @@ export default function UslugiPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex justify-center items-center">
                   Optymalizacja SEO
@@ -268,7 +278,7 @@ export default function UslugiPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 rounded flex flex-col">
+            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex justify-center items-center">
                   Content Marketing
