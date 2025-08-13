@@ -85,7 +85,7 @@ export default function Footer({
           {/* Company Info Column - Mobile: full width, Tablet+: equal height */}
           <div className="col-span-1 space-y-4 sm:space-y-6 px-2 sm:px-0 md:h-full md:flex md:flex-col">
             {/* Logo i nazwa firmy */}
-            <div className="flex items-center justify-center sm:justify-start space-x-3">
+            <div className="flex items-center justify-center md:justify-start space-x-3">
               <div className="flex-shrink-0">
                 {/* Kolorowe logo jak na screenshocie */}
                 <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg flex items-center justify-center">
@@ -101,7 +101,7 @@ export default function Footer({
 
             {/* Opis firmy */}
             <div className="md:flex-1">
-              <p className="text-gray-600 leading-relaxed text-center sm:text-left max-w-sm mx-auto sm:mx-0 text-sm sm:text-base">
+              <p className="text-gray-600 leading-relaxed text-center md:text-left mx-auto sm:mx-0 text-sm sm:text-base">
                 {companyDescription}
               </p>
             </div>

@@ -10,7 +10,7 @@ export default function ContactUs() {
     >
       <div className="relative z-10 container py-14 px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
-          <div className="space-y-8 col-span-1 md:col-span-2 text-left p-12">
+          <div className="space-y-8 col-span-1 md:col-span-2 text-center md:text-left p-12">
             <h3 className="text-2xl sm:text-3xl md:text-5xl font-semibold">
               <span>Porozmawiajmy o Twoim projekcie</span>
             </h3>
@@ -21,7 +21,7 @@ export default function ContactUs() {
               biznesowych.
             </p>
           </div>
-          <div className="space-x-8 col-span-1 text-left md:text-center">
+          <div className="space-x-8 col-span-1 text-center ">
             {/* Button */}
             <div className="pt-8 md:pt-0 mt-auto">
               <Link href="/kontakt">

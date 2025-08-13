@@ -12,10 +12,10 @@ export const metadata = {
 export default function UslugiPage() {
   return (
     <>
-      <section className="min-h-[400px] flex items-center justify-center overflow-hidden">
+      <section className="min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
-          <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center justify-start">
-            <div className="space-y-8 p-16">
+          <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start md:items-center justify-start">
+            <div className="space-y-8 p-8 md:p-16 flex flex-col justify-start">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
                 <span>Usługi</span>
               </h1>
@@ -27,7 +27,7 @@ export default function UslugiPage() {
             <div className="relative w-full h-full min-h-[400px] sm:min-h-[400px] lg:min-h-full">
               <Image
                 src="/homepage/img-1.png"
-                alt="Hero Image"
+                alt="Przedstawiamy naszą ofertę usług"
                 fill
                 className="object-cover rounded-lg"
               />
@@ -49,7 +49,7 @@ export default function UslugiPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 justify-center items-stretch  py-20">
-            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
+            <div className="bg-gray-300 p-8 border-2 border-gray-300 rounded-2xl flex flex-col bg-gradient-to-b from-blue-600 to-purple-600">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -74,7 +74,7 @@ export default function UslugiPage() {
                   </svg>
                   Projektowanie Stron WWW
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Tworzymy nowoczesne, responsywne strony internetowe dopasowane
                   do Twoich potrzeb. Od prostych witryn wizytówek po
                   zaawansowane sklepy internetowe – zapewniamy kompleksowe
@@ -82,7 +82,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
+            <div className="bg-gray-300 p-8 border-2 border-gray-300 rounded-2xl flex flex-col bg-gradient-to-t from-blue-600 to-purple-600">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -107,7 +107,7 @@ export default function UslugiPage() {
                   </svg>
                   Optymalizacja SEO
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Zwiększ widoczność swojej strony w wyszukiwarkach! Nasze
                   usługi SEO obejmują audyt strony, dobór słów kluczowych,
                   optymalizację treści i link building, aby Twoja witryna
@@ -115,7 +115,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
+            <div className="bg-gray-300 p-8 border-2 border-gray-300 rounded-2xl flex flex-col bg-gradient-to-b from-blue-600 to-purple-600">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -140,7 +140,7 @@ export default function UslugiPage() {
                   </svg>
                   Content Marketing
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Tworzymy angażujące i wartościowe treści, które przyciągną
                   Twoją grupę docelową i zbudują autorytet Twojej marki. Piszemy
                   artykuły blogowe, opisy produktów, teksty na strony WWW oraz
@@ -148,7 +148,7 @@ export default function UslugiPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-300 p-8 border border-gray-300 rounded-2xl flex flex-col">
+            <div className="bg-gray-300 p-8 border-2 border-gray-300 rounded-2xl flex flex-col bg-gradient-to-t from-blue-600 to-purple-600">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl text-black font-semibold flex items-center">
                   <svg
@@ -173,7 +173,7 @@ export default function UslugiPage() {
                   </svg>
                   Audyt i Analiza Strony
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Przeprowadzamy szczegółowe audyty techniczne i merytoryczne
                   Twojej strony, identyfikując obszary do poprawy w zakresie
                   użyteczności, wydajności i SEO. Dostarczamy konkretne
