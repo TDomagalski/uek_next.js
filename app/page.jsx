@@ -4,7 +4,7 @@ import Button from '../components/ui/Buttons';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'TwojaStrona.pl',
+  title: 'UEK-Next.js App',
   description:
     'Content marketing i profesjonalne projektowanie stron WWW. Zwiększ zasięg swojej marki z naszymi usługami.',
   metadataBase: new URL('https://twojastrona.pl'),
@@ -63,6 +63,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="relative z-10 container px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20">
@@ -242,6 +243,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+
             <div className="space-y-4 border border-gray-300 rounded-2xl py-10 px-10 h-full flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl font-semibold">Pozycjonowanie SEO</h3>
@@ -270,6 +272,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+
             <div className="space-y-4 border border-gray-300 rounded-2xl py-10 px-10 h-full flex flex-col">
               <div className="flex-grow space-y-6">
                 <h3 className="text-2xl font-semibold">Content Marketing</h3>
