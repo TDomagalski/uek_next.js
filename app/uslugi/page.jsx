@@ -26,7 +26,7 @@ export default function UslugiPage() {
             </div>
             <div className="relative w-full h-full min-h-[400px] sm:min-h-[400px] lg:min-h-full">
               <Image
-                src="/homepage/img-1.png"
+                src="/uslugi/top-img.png"
                 alt="Przedstawiamy naszą ofertę usług"
                 fill
                 className="object-cover rounded-lg"
