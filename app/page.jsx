@@ -3,13 +3,6 @@ import Image from 'next/image';
 import Button from '../components/ui/Buttons';
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'UEK-Next.js App',
-  description:
-    'Content marketing i profesjonalne projektowanie stron WWW. Zwiększ zasięg swojej marki z naszymi usługami.',
-  metadataBase: new URL('https://twojastrona.pl'),
-};
-
 export default function Home() {
   return (
     <>

@@ -16,21 +16,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title:
-    'Agencja Web Design & SEO | Projektowanie Stron WWW | Content Marketing',
+  title: 'UEK-Next.js App',
   description:
     'Profesjonalne projektowanie stron internetowych, optymalizacja SEO i content marketing. Budujemy marki online i zwiększamy zasięg. Sprawdź nasze usługi!',
   keywords:
     'web design, SEO, projektowanie stron internetowych, content marketing, strony www, optymalizacja SEO, agencja marketingowa, responsive design',
-  authors: [{ name: 'Agencja Web Design' }],
+  authors: [{ name: 'TomDom' }],
+  metadataBase: new URL('https://uek-next-js.vercel.app/'),
 
   openGraph: {
-    title: 'Agencja Web Design & SEO - Buduj markę online',
+    title: 'UEK-Next.js App',
     description:
       'Profesjonalne projektowanie stron internetowych, optymalizacja SEO i content marketing. Budujemy marki online i zwiększamy zasięg. Sprawdź nasze usługi!',
     type: 'website',
     locale: 'pl_PL',
-    siteName: 'Agencja Web Design',
     images: [
       {
         url: '/top-bg.jpg',
@@ -39,6 +38,7 @@ export const metadata = {
         alt: 'Agencja Web Design - projektowanie stron internetowych i SEO',
       },
     ],
+    metadataBase: new URL('https://uek-next-js.vercel.app/'),
   },
 
   robots: {

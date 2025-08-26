@@ -3,10 +3,9 @@ import Image from 'next/image';
 import Button from '@/components/ui/Buttons';
 
 export const metadata = {
-  title: 'TwojaStrona.pl - Usługi',
-  description:
-    'Content marketing i profesjonalne projektowanie stron WWW. Zwiększ zasięg swojej marki z naszymi usługami.',
-  metadataBase: new URL('https://twojastrona.pl/uslugi'),
+  title: 'UEK-Next.js App - Usługi',
+  description: 'Podstrona poświęcona usługom',
+  metadataBase: new URL('https://uek-next-js.vercel.app/uslugi/'),
 };
 
 export default function UslugiPage() {
