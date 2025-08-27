@@ -19,39 +19,18 @@ export const metadata = {
   title: 'UEK-Next.js App',
   description:
     'Profesjonalne projektowanie stron internetowych, optymalizacja SEO i content marketing. Budujemy marki online i zwiększamy zasięg. Sprawdź nasze usługi!',
-  keywords:
-    'web design, SEO, projektowanie stron internetowych, content marketing, strony www, optymalizacja SEO, agencja marketingowa, responsive design',
+  keywords: [
+    'web design',
+    'SEO',
+    'projektowanie stron internetowych',
+    'content marketing',
+    'strony www',
+    'optymalizacja SEO',
+    'agencja marketingowa',
+    'responsive design',
+  ],
   authors: [{ name: 'TomDom' }],
   metadataBase: new URL('https://uek-next-js.vercel.app/'),
-
-  openGraph: {
-    title: 'UEK-Next.js App',
-    description:
-      'Profesjonalne projektowanie stron internetowych, optymalizacja SEO i content marketing. Budujemy marki online i zwiększamy zasięg. Sprawdź nasze usługi!',
-    type: 'website',
-    locale: 'pl_PL',
-    images: [
-      {
-        url: '/top-bg.jpg',
-        width: 1500,
-        height: 990,
-        alt: 'Agencja Web Design - projektowanie stron internetowych i SEO',
-      },
-    ],
-    metadataBase: new URL('https://uek-next-js.vercel.app/'),
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

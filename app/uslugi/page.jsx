@@ -2,12 +2,6 @@ import Image from 'next/image';
 
 import Button from '@/components/ui/Buttons';
 
-export const metadata = {
-  title: 'UEK-Next.js App - Usługi',
-  description: 'Podstrona poświęcona usługom',
-  metadataBase: new URL('https://uek-next-js.vercel.app/uslugi/'),
-};
-
 export default function UslugiPage() {
   return (
     <>

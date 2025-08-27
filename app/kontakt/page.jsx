@@ -1,11 +1,5 @@
 import Image from 'next/image';
 
-export const metadata = {
-  title: 'UEK-Next.js App - Usługi',
-  description: 'Podstrona kontakt',
-  metadataBase: new URL('https://uek-next-js.vercel.app/kontakt/'),
-};
-
 export default function KontaktPage() {
   return (
     <>
